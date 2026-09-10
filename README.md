@@ -4,119 +4,211 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20DevKit-blue?style=for-the-badge)](https://v0-devkit.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge\&logo=github)](https://github.com/SubhaYadav/DEVKIT)
-[![License](https://img.shields.io/badge/License-Open%20Source-green?style=for-the-badge)](LICENSE)
+[![Developer Website](https://img.shields.io/badge/Developer-Website-purple?style=for-the-badge\&logo=google-chrome)](https://www.subhayadav.com.np)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/subha-saubhagya-singh-yadav-38596a317/)
 
-**DevKit** is an open-source developer toolkit that brings essential developer utilities into one fast, privacy-first workspace.
+> **Fast, privacy-first, open-source developer utilities — all in one place.**
 
-Instead of switching between dozens of websites for everyday development tasks, DevKit provides tools for **JSON, encoding, security, regex, text, web development, Git, time, Markdown, data conversion, and more.**
+**DevKit** is an open-source developer toolkit designed to bring the everyday utilities developers need into one unified workspace.
 
-🌐 **[Try DevKit Live](https://v0-devkit.vercel.app/)**
+Instead of switching between dozens of websites for small development tasks, DevKit provides practical tools for **JSON, encoding, security, regex, text, web development, Git, time, Markdown, data conversion, and more.**
+
+🚀 **[Try DevKit Live →](https://v0-devkit.vercel.app/)**
 
 ---
 
-## 🚀 Why DevKit?
+## ✨ Why DevKit?
 
 Developers constantly need small utilities:
 
-* Format JSON
+* Format and validate JSON
+* Encode and decode Base64
 * Decode JWTs
 * Generate UUIDs
 * Test regular expressions
-* Convert timestamps
-* Encode/decode Base64
-* Format SQL
-* Convert JSON to TypeScript
-* Generate hashes
+* Convert Unix timestamps
+* Format SQL, HTML and CSS
+* Convert JSON, CSV and YAML
+* Generate hashes and passwords
 * Work with URLs
-* Convert data formats
 * Generate QR codes
+* Analyze and transform text
 * And much more
 
-Usually, that means opening multiple websites.
+Instead of opening a different website for every task:
 
-**DevKit brings these utilities together in one place.**
+**DevKit brings them together.**
 
-> One project. One interface. Dozens of developer utilities.
+> **One project. One interface. Dozens of developer utilities.**
 
 ---
 
-## ✨ Features
+## 🧰 Features
 
-### 🧩 Developer Tools
+DevKit provides tools across multiple categories.
 
-DevKit includes tools across multiple categories:
+### 🗃️ JSON
 
-| Category     | Examples                                          |
-| ------------ | ------------------------------------------------- |
-| 🗃️ JSON     | Formatter, Minifier, Validator, JSON → TypeScript |
-| 🔐 Security  | JWT Decoder, Hash Generator, Password Generator   |
-| 🔤 Encoding  | Base64, URL Encoding, HTML Encoding               |
-| 🧪 Testing   | Regex Tester, JSONPath Tester                     |
-| 📝 Text      | Diff, Case Converter, Word Counter                |
-| 🌐 Web       | HTML Formatter, CSS Formatter, URL Parser         |
-| ⏱️ Time      | Unix Timestamp, Timezone Converter                |
-| 📊 Data      | CSV ↔ JSON, YAML ↔ JSON                           |
-| 🐙 Git       | Git Command Helper                                |
-| 📄 Markdown  | Markdown Editor, Markdown → HTML                  |
-| 🎨 Utilities | Color Converter, QR Generator                     |
-| ⚙️ Developer | `.env` Validator, Semver, Chmod, Cron             |
+* JSON Formatter
+* JSON Minifier
+* JSON Validator
+* JSON → TypeScript
+* JSON → CSV
+* JSONPath Tester
+
+### 🔐 Security
+
+* JWT Decoder
+* Hash Generator
+* UUID Generator
+* Password Generator
+* Random String Generator
+* `.env` Validator
+
+### 🔤 Encoding & Conversion
+
+* Base64 Encoder / Decoder
+* URL Encoder / Decoder
+* HTML Encoder / Decoder
+* YAML ↔ JSON
+* CSV ↔ JSON
+* Number Base Converter
+* Image ↔ Base64
+
+### 🧪 Testing & Text
+
+* Regex Tester
+* Text Diff
+* Word & Character Counter
+* Case Converter
+* Sort Lines
+* Remove Duplicate Lines
+* Random Data Generator
+* Lorem Ipsum Generator
+
+### 🌐 Web Development
+
+* HTML Formatter
+* CSS Formatter
+* SQL Formatter
+* Color Converter
+* URL Parser
+* Query String Parser
+* XML Formatter
+* HTTP Request Builder
+
+### ⏱️ Time & Date
+
+* Unix Timestamp Converter
+* Date Formatter
+* Time Difference Calculator
+* Timezone Converter
+
+### 🐙 Git & Developer Utilities
+
+* Git Command Helper
+* Semver Calculator
+* Chmod Calculator
+* Cron Expression Helper
+* HTTP Status Code Reference
+* HTTP Headers Reference
+* MIME Type Lookup
+
+### 📝 Markdown
+
+* Markdown Previewer
+* Markdown → HTML
+
+### 🎨 Other Utilities
+
+* QR Code Generator
+* Image Metadata Viewer
 
 ---
 
 ## 🔒 Privacy First
 
-DevKit is designed with a **local-first approach**.
+DevKit follows a **privacy-first, local-first approach**.
 
-Whenever possible, processing happens directly in your browser instead of sending your data to a server.
+Whenever technically possible, tools process data directly inside your browser instead of sending it to a server.
 
-This is especially important for developer tools that may handle:
+This is particularly important for tools that may handle:
 
 * JWTs
 * Passwords
-* Environment variables
 * API-related data
+* Environment variables
 * Private code
 * Configuration files
 
-DevKit aims to avoid unnecessary data collection, uploads, and storage.
+DevKit aims to avoid unnecessary uploads, logging, and storage of user input.
 
-> Always verify the behavior of an individual tool before entering highly sensitive information.
+> ⚠️ Always verify the behavior of an individual tool before entering highly sensitive information.
 
 ---
 
-## 💻 Web + CLI + npm
-
-DevKit is designed to become more than an online tools website.
-
-### 🌐 Web Application
+## 🌐 Web Application
 
 Use DevKit directly from your browser:
 
-**[v0-devkit.vercel.app](https://v0-devkit.vercel.app/)**
+### 🚀 [Open DevKit](https://v0-devkit.vercel.app/)
 
-### 💻 CLI
+The web application provides:
 
-The project is designed to provide developer utilities directly from the terminal.
+* Responsive interface
+* Tool search
+* Categories
+* Dark/light themes
+* Copy-to-clipboard
+* Download functionality where appropriate
+* Local processing where possible
+* Keyboard-friendly workflows
+
+---
+
+## 💻 CLI
+
+DevKit is designed to bring many of its utilities directly into the terminal.
+
+Example:
 
 ```bash
 npx devkit uuid
 ```
 
-Example:
+Base64:
 
 ```bash
 npx devkit base64 encode "Hello World"
 ```
 
-And:
+JSON:
 
 ```bash
 npx devkit json format data.json
 ```
 
-### 📦 NPM Packages
+Timestamp:
 
-Reusable DevKit functionality can be exposed through modular packages so developers can integrate individual utilities into their own projects.
+```bash
+npx devkit timestamp now
+```
+
+Regex:
+
+```bash
+npx devkit regex test "\d+" "I have 123 apples"
+```
+
+The CLI is designed to reuse the same underlying utility packages used by the web application.
+
+---
+
+## 📦 NPM Packages
+
+DevKit is designed as an ecosystem rather than only a web application.
+
+Reusable functionality can be distributed through modular npm packages.
 
 Example:
 
@@ -124,26 +216,21 @@ Example:
 npm install @devkit/json
 ```
 
----
+Potential package structure:
 
-## 🛠️ Technology
+```text
+@devkit/core
+@devkit/json
+@devkit/encoding
+@devkit/crypto
+@devkit/text
+@devkit/time
+@devkit/regex
+@devkit/markdown
+@devkit/web
+```
 
-DevKit is built using modern web and developer technologies.
-
-Depending on the current implementation, the project uses technologies such as:
-
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-* shadcn/ui
-* Node.js
-* pnpm
-* Vitest
-* Playwright
-* GitHub Actions
-
-The project is structured to keep functionality reusable between the web application, CLI, and packages wherever practical.
+The goal is to allow developers to use individual DevKit utilities inside their own applications.
 
 ---
 
@@ -170,172 +257,93 @@ The project is structured to keep functionality reusable between the web applica
         Time            Encoding             Web
 ```
 
-The goal is to avoid duplicating core functionality between different parts of the project.
+The architecture is designed to minimize duplicated logic between the web application, CLI, and npm packages.
 
 ---
 
-## ⚡ Example Tools
+## 🛠️ Technology Stack
 
-### JSON Formatter
+DevKit is built with modern web and developer technologies, including:
 
-```json
-{
-  "name": "DevKit",
-  "type": "developer-toolkit"
-}
-```
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Node.js**
+* **pnpm**
+* **Vitest**
+* **Playwright**
+* **GitHub Actions**
 
-### Base64
-
-```text
-Hello World
-        ↓
-SGVsbG8gV29ybGQ=
-```
-
-### UUID
-
-```text
-550e8400-e29b-41d4-a716-446655440000
-```
-
-### Unix Timestamp
-
-```text
-1704067200
-        ↓
-2024-01-01 00:00:00 UTC
-```
-
-### Regex
-
-```text
-Pattern:
-\d+
-
-Input:
-I have 123 apples and 456 oranges.
-
-Matches:
-123
-456
-```
+The exact technology list should always reflect the actual implementation in the repository.
 
 ---
 
 ## ⌨️ Developer Experience
 
-DevKit is designed around a developer-friendly workflow.
+DevKit is designed around a developer-first workflow.
 
-Planned/current UX features include:
+Features include or are being developed around:
 
 * 🔍 Global tool search
 * ⌘ Command palette
 * ⭐ Favorites
 * 🕘 Recently used tools
 * 🌙 Dark/light mode
-* 📱 Responsive interface
+* 📱 Responsive design
 * 📋 Copy to clipboard
 * ⬇️ Download results
 * ⌨️ Keyboard shortcuts
-* 📴 Offline-friendly tools
+* 📴 Offline-friendly functionality
 
 ---
 
-## 🧪 Testing
+## 🧪 Testing & Reliability
 
-DevKit aims to keep its utilities reliable through automated testing.
+DevKit aims to ensure that tools are not just visually impressive but actually useful.
 
-Testing includes:
+Testing covers:
 
-* Unit tests
-* Integration tests
-* End-to-end tests
-* CLI testing
-* Input validation
-* Error handling
+* Valid input
+* Invalid input
+* Empty input
+* Unicode
 * Edge cases
+* Error handling
+* CLI functionality
+* Web workflows
+* Regression testing
 
-Every tool should be tested with both valid and invalid input before being considered production-ready.
-
----
-
-## 🤝 Contributing
-
-DevKit is open source and contributions are welcome.
-
-You can contribute by:
-
-* 🐛 Reporting bugs
-* 💡 Suggesting new tools
-* 🔧 Fixing issues
-* ✨ Adding features
-* 📚 Improving documentation
-* 🧪 Adding tests
-* 🎨 Improving UI/UX
-
-### Basic workflow
-
-```bash
-git clone https://github.com/SubhaYadav/DEVKIT.git
-
-cd DEVKIT
-
-pnpm install
-```
-
-Create a branch:
-
-```bash
-git checkout -b feature/my-new-tool
-```
-
-Make your changes, test them, and open a pull request.
-
-Before submitting a PR, make sure the existing functionality still works.
-
----
-
-## 💡 Suggest a Tool
-
-Have an idea for a developer utility that belongs in DevKit?
-
-Open a feature request on GitHub:
-
-**[Suggest a Tool →](https://github.com/SubhaYadav/DEVKIT/issues)**
-
-A good suggestion should explain:
-
-1. What problem the tool solves
-2. Who would use it
-3. Why it belongs in DevKit
-4. Example input/output
+Tools should not be considered complete until their core functionality has been tested.
 
 ---
 
 ## 🗺️ Roadmap
 
-### ✅ Current
+### ✅ Completed
+
+Only functionality that is actually implemented should be marked as completed.
 
 * [x] Core developer utilities
 * [x] Responsive web interface
 * [x] Privacy-first browser tools
 * [x] Tool categories
 * [x] Searchable tool directory
-* [x] Core utilities and converters
+* [x] Core conversion and developer utilities
 
 ### 🚧 In Progress
 
 * [ ] Expanded CLI functionality
-* [ ] More reusable npm packages
-* [ ] Expanded automated testing
+* [ ] Expanded npm packages
+* [ ] More automated tests
 * [ ] Improved documentation
-* [ ] More developer utilities
+* [ ] Additional developer utilities
 
 ### 🔮 Future
 
 * [ ] DevKit Playground
-* [ ] Tool chaining/workflows
+* [ ] Tool chaining / workflows
 * [ ] Improved offline support
 * [ ] Shareable tool configurations
 * [ ] Community tool contributions
@@ -344,56 +352,119 @@ A good suggestion should explain:
 
 ---
 
-## 🌟 Support the Project
+## 🤝 Contributing
+
+Contributions are welcome!
+
+You can help DevKit by:
+
+* 🐛 Reporting bugs
+* 💡 Suggesting new tools
+* ✨ Building features
+* 🔧 Fixing issues
+* 📚 Improving documentation
+* 🧪 Adding tests
+* 🎨 Improving UI/UX
+
+### Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SubhaYadav/DEVKIT.git
+```
+
+Enter the project:
+
+```bash
+cd DEVKIT
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Create a feature branch:
+
+```bash
+git checkout -b feature/my-new-tool
+```
+
+Make your changes, test them, and submit a pull request.
+
+Before submitting, make sure existing functionality still works.
+
+---
+
+## 💡 Suggest a Tool
+
+Have an idea for a developer utility?
+
+Open an issue:
+
+### [Suggest a Tool →](https://github.com/SubhaYadav/DEVKIT/issues)
+
+A useful proposal should explain:
+
+1. What problem the tool solves
+2. Who would use it
+3. Why it belongs in DevKit
+4. Example input and output
+
+---
+
+## 🔗 Project Links
+
+### 🚀 Live Demo
+
+**[v0-devkit.vercel.app](https://v0-devkit.vercel.app/)**
+
+### 💻 GitHub Repository
+
+**[github.com/SubhaYadav/DEVKIT](https://github.com/SubhaYadav/DEVKIT)**
+
+---
+
+# 👨‍💻 Developer
+
+## Subha Saubhagya Singh Yadav
+
+**IT Student • Web Developer • Open-Source Builder • AI/ML Learner**
+
+I'm interested in building practical software, exploring AI/ML, and creating technology that solves real-world problems.
+
+DevKit is being developed as an open-source project focused on making everyday development tasks simpler while learning, experimenting, and building useful software for the developer community.
+
+### Connect with me
+
+🌐 **Website**
+[www.subhayadav.com.np](https://www.subhayadav.com.np)
+
+💻 **GitHub**
+[github.com/SubhaYadav](https://github.com/SubhaYadav)
+
+💼 **LinkedIn**
+[linkedin.com/in/subha-saubhagya-singh-yadav-38596a317](https://www.linkedin.com/in/subha-saubhagya-singh-yadav-38596a317/)
+
+---
+
+## 🌟 Support DevKit
 
 If DevKit is useful to you:
 
 ⭐ **Star the repository**
 
-🐛 **Report bugs**
+🐛 **Report a bug**
 
-💡 **Suggest improvements**
+💡 **Suggest an improvement**
 
-🔧 **Contribute code**
+🔧 **Contribute**
 
 📢 **Share it with other developers**
 
-Your support helps the project grow and motivates continued development.
-
----
-
-## 🌐 Links
-
-### 🚀 Live Demo
-
-**https://v0-devkit.vercel.app/**
-
-### 💻 GitHub
-
-**https://github.com/SubhaYadav/DEVKIT**
-
-### 👨‍💻 Developer
-
-**Subha Saubhagya Singh Yadav**
-
-🌐 **Website:**
-https://www.subhayadav.com.np
-
-💻 **GitHub:**
-https://github.com/SubhaYadav
-
-💼 **LinkedIn:**
-https://www.linkedin.com/in/subha-saubhagya-singh-yadav-38596a317/
-
----
-
-## 👨‍💻 About the Developer
-
-Hi, I'm **Subha Saubhagya Singh Yadav**, an IT student and developer interested in building practical software, exploring AI/ML, and creating technology that solves real-world problems.
-
-DevKit is one of my open-source projects focused on making everyday development tasks simpler while learning, experimenting, and building something useful for the developer community.
-
-**Built by a developer, for developers.**
+Every contribution, idea, and star helps the project grow.
 
 ---
 
@@ -401,18 +472,20 @@ DevKit is one of my open-source projects focused on making everyday development 
 
 This project is open source.
 
-See the [LICENSE](LICENSE) file for the applicable license and terms.
+See the [`LICENSE`](LICENSE) file for the applicable license and terms.
 
 ---
 
 <div align="center">
 
-### ⚡ DevKit
+# ⚡ DevKit
 
-**Developer tools. One place.**
+### Developer tools. One place.
 
-Built with ❤️ by **[Subha Saubhagya Singh Yadav](https://www.subhayadav.com.np)**
+**Built with ❤️ by Subha Saubhagya Singh Yadav**
 
-[⭐ Star on GitHub](https://github.com/SubhaYadav/DEVKIT) · [🚀 Live Demo](https://v0-devkit.vercel.app/) · [💼 LinkedIn](https://www.linkedin.com/in/subha-saubhagya-singh-yadav-38596a317/)
+[🚀 Live Demo](https://v0-devkit.vercel.app/) · [💻 GitHub](https://github.com/SubhaYadav/DEVKIT) · [🌐 Website](https://www.subhayadav.com.np) · [💼 LinkedIn](https://www.linkedin.com/in/subha-saubhagya-singh-yadav-38596a317/)
+
+⭐ **If DevKit saves you time, consider starring the repository.**
 
 </div>
