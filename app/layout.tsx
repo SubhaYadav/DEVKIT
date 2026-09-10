@@ -6,9 +6,6 @@ export const metadata: Metadata = {
   title: 'DevKit — Developer tools. One place.',
   description: 'Fast, private and open-source utilities for developers.',
   generator: 'DevKit',
-  icons: {
-    icon: '/favicon.ico',
-  },
 }
 
 export const viewport: Viewport = {
