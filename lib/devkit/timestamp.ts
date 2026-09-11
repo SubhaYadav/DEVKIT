@@ -1,0 +1,4 @@
+export type TimestampUnit = 'seconds' | 'milliseconds'
+export function timestampToDate(value: string, unit: TimestampUnit): Date { const number = Number(value); if (!value.trim() || !Number.isFinite(number)) throw new Error('Enter a valid numeric timestamp.'); const date = new Date(unit === 'seconds' ? number * 1000 : number); if (Number.isNaN(date.getTime())) throw new Error('Timestamp is outside the supported date range.'); return date }
+export function dateToTimestamp(value: string, unit: TimestampUnit): number { const time = new Date(value).getTime(); if (Number.isNaN(time)) throw new Error('Enter a valid date and time.'); return unit === 'seconds' ? Math.floor(time / 1000) : time }
+export function formatDate(date: Date): { utc: string; local: string; iso: string } { return { utc: date.toUTCString(), local: date.toLocaleString(), iso: date.toISOString() } }
